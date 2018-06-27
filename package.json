@@ -1,0 +1,30 @@
+{
+  "name": "jwtauth",
+  "version": "1.0.0",
+  "description": "node.js + koa + mongoDB + jwt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetulitichev/jwtAuth.git"
+  },
+  "author": "vetulitichev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vetulitichev/jwtAuth/issues"
+  },
+  "homepage": "https://github.com/vetulitichev/jwtAuth#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "prettier": "^1.13.6"
+  }
+}
